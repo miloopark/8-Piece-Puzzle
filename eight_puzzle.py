@@ -1,14 +1,5 @@
 #
-# eight_puzzle.py (Final project)
-#
 # driver/test code for state-space search on Eight Puzzles   
-#
-# name: 
-# email:
-#
-# If you worked with a partner, put their contact info below:
-# partner's name:
-# partner's email:
 #
 
 from searcher import *
@@ -29,8 +20,6 @@ def create_searcher(algorithm, param):
     
     if algorithm == 'random':
         searcher = Searcher(param)
-## You will uncommment the following lines as you implement
-## other algorithms.
     elif algorithm == 'BFS':
         searcher = BFSearcher(param)
     elif algorithm == 'DFS':
@@ -110,17 +99,6 @@ def process_file(filename, algorithm, param):
     if puzzles != 0:
         print('averages:', moves/puzzles, 'moves,', states_tested/puzzles, 'states tested')
         
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     
