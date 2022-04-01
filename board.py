@@ -1,7 +1,6 @@
 #
-# A Board class for the Eight Puzzle
+# A Board class for the Eight Piece Puzzle
 #
-
 
 # a 2-D list that corresponds to the tiles in the goal state
 GOAL_TILES = [['0', '1', '2'],
